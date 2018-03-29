@@ -1,0 +1,15 @@
+$app-block-height: 200px;
+
+.app-block{
+    background-color:$white;
+    height: $app-block-height;
+    
+    &__col--video{
+       background-color: $white;
+       
+    }
+    &__col--text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
